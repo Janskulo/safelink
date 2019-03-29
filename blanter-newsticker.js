@@ -62,7 +62,7 @@ function recent_post_content(){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
     s += "Breaking News";
-    s += "</div>";
+    s += "</div>";}
     s += "  <marquee style='float: right;margin-left:0px; width:90%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
         var recent_post_entries = entries[i];
@@ -70,7 +70,7 @@ function recent_post_content(){
         s += "onmouseover='this.parentNode.stop()' onmouseout='this.parentNode.start()'";
         s += ">" + recent_post_entries.title + "</a>";
         if(i != latest_post-1){s += " | ";}
-    }}
+    }
     s += "</marquee>";
     s += "</div>";
     if(close_button){
