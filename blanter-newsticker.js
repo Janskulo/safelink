@@ -61,7 +61,7 @@ function recent_post_content(){
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "<a href='http://thejanskulo.blogspot.com/search/label/Download%20Mp3?max-results=10' target='_blank'>MP3 Baru=></a>";
+    s += "<a href='http://thejanskulo.blogspot.com/search/label/Download%20Mp3?max-results=10'>MP3 Baru=></a>";
     s += "</div>";
     }
     s += "  <marquee style='float:left; width:80%' scrollAmount='"+scrolling_speed+"'>";
@@ -69,7 +69,7 @@ function recent_post_content(){
         var recent_post_entries = entries[i];
         s += "<a href='"+recent_post_entries.href+"' ";
         s += "onmouseover='this.parentNode.stop()' onmouseout='this.parentNode.start()' ";
-        s += "target='_blank'>" + recent_post_entries.title + "</a>";
+        s += ">" + recent_post_entries.title + "</a>";
         if(i != latest_post-1){s += " | ";}
     }
     s += "</marquee>";
