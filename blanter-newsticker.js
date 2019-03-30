@@ -61,7 +61,7 @@ function recent_post_content(){
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "MP3 Baru=>";
+    s += "<a href='http://thejanskulo.blogspot.com/search/label/Download%20Mp3?max-results=10'>MP3 Baru=></a>";
     s += "</div>";
     }
     s += "  <marquee style='float:left; width:80%' scrollAmount='"+scrolling_speed+"'>";
