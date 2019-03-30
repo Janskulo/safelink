@@ -75,7 +75,7 @@ function recent_post_content(){
     s += "</marquee>";
     s += "</div>";
     if(close_button){
-	s += "<div style='float:right;margin-right:3px;'>";
+	s += "<div style='float:right;margin-right:40px;'>";
     s += "<a href='javascript:void(0)' onclick='document.getElementById(\"recent_post\").style.display=\"none\"'>";
     s += "(x)";
     s += "</a>";
