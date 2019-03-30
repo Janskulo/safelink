@@ -57,11 +57,11 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='Download MP3'>";
+    var s = "<div id='recent_post' title='Download MP3 =>'>";
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "Download MP3";
+    s += "Download MP3 =>";
     s += "</div>";
     }
     s += "  <marquee style='float:left; width:80%' scrollAmount='"+scrolling_speed+"'>";
