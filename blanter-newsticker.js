@@ -69,7 +69,7 @@ function recent_post_content(){
         var recent_post_entries = entries[i];
         s += "<a href='"+recent_post_entries.href+"' ";
         s += "onmouseover='this.parentNode.stop()' onmouseout='this.parentNode.start()' ";
-        s += "target="_blank">" + recent_post_entries.title + "</a>";
+        s += ">" + recent_post_entries.title + "</a>";
         if(i != latest_post-1){s += " | ";}
     }
     s += "</marquee>";
