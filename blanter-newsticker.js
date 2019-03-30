@@ -62,7 +62,8 @@ function recent_post_content(){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
     s += "Breaking News";
-    s += "</div>";}
+    s += "</div>";
+    }
     s += "  <marquee style='float:left; width:80%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
         var recent_post_entries = entries[i];
