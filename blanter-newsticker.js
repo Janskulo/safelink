@@ -57,7 +57,7 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='MP3 Baru =>'>";
+    var s = "<div id='recent_post'>";
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
