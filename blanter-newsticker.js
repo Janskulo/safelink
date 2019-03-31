@@ -51,7 +51,7 @@ function recent_post_style(){
     s += "#recent_post{";
     s += "margin:0px;";
     s += "width:80%;";
-    s += "background:#999;";
+    s += "background:#cfe2f3;";
     s += "}";
     s += "</style>";
     document.write(s);
