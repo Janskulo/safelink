@@ -82,7 +82,7 @@ var toc_config = {
 		}
 	};
 	var s = d.createElement('script');
-	s.src = toc_config.url.replace(/\/$/, "") + '/feeds/posts/summary?alt=json-in-script&max-results=10000' + toc_config.maxResults + '&callback=' + toc_config.jsonCallback;
+	s.src = toc_config.url.replace(/\/$/, "") + '/feeds/posts/' + toc_config.maxResults + '&callback=' + toc_config.jsonCallback;
 	if (toc_config.delayLoading == "onload") {
 		w.onload = function() {
 			head.appendChild(s);
